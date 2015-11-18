@@ -1,0 +1,2825 @@
+2015-09-20 08:45:35 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:45:35 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    '_csrf' => '94eb4870aa87e011ddba27b3c2b649acaa41848e6071d772db84d4180c5ae12fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"izBBureOOiO-VFPZobtiCbCL-EqfHLP5\";}'
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=94eb4870aa87e011ddba27b3c2b649acaa41848e6071d772db84d4180c5ae12fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22izBBureOOiO-VFPZobtiCbCL-EqfHLP5%22%3B%7D; PHPSESSID=9j3ein80j40r862fr0l49u8aj5'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53638'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442738735.338
+    'REQUEST_TIME' => 1442738735
+]
+2015-09-20 08:45:35 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:45:35 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    '_csrf' => '94eb4870aa87e011ddba27b3c2b649acaa41848e6071d772db84d4180c5ae12fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"izBBureOOiO-VFPZobtiCbCL-EqfHLP5\";}'
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=94eb4870aa87e011ddba27b3c2b649acaa41848e6071d772db84d4180c5ae12fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22izBBureOOiO-VFPZobtiCbCL-EqfHLP5%22%3B%7D; PHPSESSID=9j3ein80j40r862fr0l49u8aj5'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53639'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442738735.775
+    'REQUEST_TIME' => 1442738735
+]
+2015-09-20 08:45:45 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:45:45 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53640'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442738745.272
+    'REQUEST_TIME' => 1442738745
+]
+2015-09-20 08:45:49 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:45:49 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53641'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442738749.255
+    'REQUEST_TIME' => 1442738749
+]
+2015-09-20 08:49:58 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:49:58 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53684'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442738998.579
+    'REQUEST_TIME' => 1442738998
+]
+2015-09-20 08:52:51 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 08:52:51 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53694'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442739171.029
+    'REQUEST_TIME' => 1442739171
+]
+2015-09-20 09:38:01 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 09:37:59 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '54639'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442741878.632
+    'REQUEST_TIME' => 1442741878
+]
+2015-09-20 09:38:06 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-09-20 09:38:06 [127.0.0.1][-][9j3ein80j40r862fr0l49u8aj5][info][application] $_COOKIE = [
+    'PHPSESSID' => '9j3ein80j40r862fr0l49u8aj5'
+    '_csrf' => 'fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=9j3ein80j40r862fr0l49u8aj5; _csrf=fa74d752e1fb9ab23f853d7b759eb6a3e642e5397599ddba777929a77aaea082a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221hLMGubz0ggA5k1k_P6HMFoWsoLEgz-z%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '54640'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1442741886.226
+    'REQUEST_TIME' => 1442741886
+]
+2015-11-10 09:26:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/login".' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/login', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-10 09:26:04 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-10 09:26:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53415'
+    'REDIRECT_URL' => '/netfind/web/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/v1/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447147563.789
+    'REQUEST_TIME' => 1447147563
+]
+2015-11-10 09:26:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/login".' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/login', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-10 09:26:18 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-10 09:26:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53421'
+    'REDIRECT_URL' => '/netfind/web/api/v1/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447147578.32
+    'REQUEST_TIME' => 1447147578
+]
+2015-11-10 09:27:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/devices/create".' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/devices/...', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-10 09:27:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-10 09:27:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53427'
+    'REDIRECT_URL' => '/netfind/web/api/v1/devices/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/devices/create'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447147645
+    'REQUEST_TIME' => 1447147645
+]
+2015-11-10 09:27:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/devices/create".' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/devices/...', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-10 09:27:35 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-10 09:27:35 [127.0.0.1][-][-][info][application] $_POST = [
+    'ggfsfsfsf' => 'sfsfsf'
+    'sfsfs' => 'sfsfsf'
+]
+
+$_COOKIE = [
+    '_csrf' => 'Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '244'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarytRQu6MEz6oQZvmbB'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=Uc8GzjdqKuvJTat8PfnE1-eOopdbuzBI'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '53432'
+    'REDIRECT_URL' => '/netfind/web/api/v1/devices/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/devices/create'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447147655.922
+    'REQUEST_TIME' => 1447147655
+]
+2015-11-13 16:13:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: api/v1/provider/' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/provider', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-13 16:13:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-13 16:13:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"732FmL79ZITcoiw91kX8dZBZaDrLjFtH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22732FmL79ZITcoiw91kX8dZBZaDrLjFtH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44376'
+    'REDIRECT_URL' => '/netfind/web/api/v1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447431207.629
+    'REQUEST_TIME' => 1447431207
+]
+2015-11-13 16:13:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: api/v1/provider/' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/provider', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-13 16:13:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-13 16:13:40 [127.0.0.1][-][-][info][application] $_POST = [
+    'ggfsfsfsf' => 'sfsfsf'
+    'sfsfs' => 'sfsfsf'
+]
+
+$_COOKIE = [
+    '_csrf' => '9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"732FmL79ZITcoiw91kX8dZBZaDrLjFtH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '244'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryadEmR7DPjO6Uyk5O'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22732FmL79ZITcoiw91kX8dZBZaDrLjFtH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44388'
+    'REDIRECT_URL' => '/netfind/web/api/v1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447431220.541
+    'REQUEST_TIME' => 1447431220
+]
+2015-11-13 16:13:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/".' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-13 16:13:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-13 16:13:45 [127.0.0.1][-][-][info][application] $_POST = [
+    'ggfsfsfsf' => 'sfsfsf'
+    'sfsfs' => 'sfsfsf'
+]
+
+$_COOKIE = [
+    '_csrf' => '9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"732FmL79ZITcoiw91kX8dZBZaDrLjFtH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '244'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary2MMAmFIOlmsUhu65'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22732FmL79ZITcoiw91kX8dZBZaDrLjFtH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44391'
+    'REDIRECT_URL' => '/netfind/web/api/v1/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447431225.714
+    'REQUEST_TIME' => 1447431225
+]
+2015-11-13 16:15:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: api/v1/provider/' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/provider', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-13 16:15:04 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-13 16:15:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"732FmL79ZITcoiw91kX8dZBZaDrLjFtH\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=9c50c27233d9d88ce9cbb8f5656d3074bc4dc69003e9c9876722b1840b11ff65a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22732FmL79ZITcoiw91kX8dZBZaDrLjFtH%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44471'
+    'REDIRECT_URL' => '/netfind/web/api/v1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447431304.35
+    'REQUEST_TIME' => 1447431304
+]
+2015-11-14 11:55:16 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('map', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/map', Array)
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2015-11-14 11:55:16 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-14 11:55:15 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '6ff5317b-03a7-495f-81d3-8ed9daf53a92'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42277'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447502114.566
+    'REQUEST_TIME' => 1447502114
+]
+2015-11-14 11:55:24 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-14 11:55:24 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '0e68cf4d-250c-6c30-a6d1-f191a032c3f1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42278'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447502123.952
+    'REQUEST_TIME' => 1447502123
+]
+2015-11-14 11:55:24 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-14 11:55:24 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '0e68cf4d-250c-6c30-a6d1-f191a032c3f1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42279'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447502124.301
+    'REQUEST_TIME' => 1447502124
+]
+2015-11-14 12:10:04 [::1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET.' in /var/www/html/netfind/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2015-11-14 12:10:04 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c75a8452-7e14-c8ff-3a41-053a2af3e7da'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42310'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447503004.297
+    'REQUEST_TIME' => 1447503004
+]
+2015-11-14 12:10:34 [::1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /var/www/html/netfind/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user/reg...', Array)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2015-11-14 12:10:34 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '2c1a4b5f-68f4-e594-3a77-e84b624f17da'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42312'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user/register'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user/register'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447503034.47
+    'REQUEST_TIME' => 1447503034
+]
+2015-11-14 12:27:07 [::1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /var/www/html/netfind/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user/reg...', Array)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2015-11-14 12:27:07 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '02b34397-55a0-9d58-c35e-d1ad9c1508b5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=c927cda6b4f1428249652e270443230c6335eb0e5744936c3d90530890f8a044a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Ul2r5WE4_g2E6_sGN3JhzOjLCT5YQzV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42335'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user/register'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user/register'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447504027.158
+    'REQUEST_TIME' => 1447504027
+]
+2015-11-15 13:17:29 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('map', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/map', Array)
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2015-11-15 13:17:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:17:29 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '672f3f4e-a3e7-a8ac-aeff-19f96f235a2f'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44173'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593449.275
+    'REQUEST_TIME' => 1447593449
+]
+2015-11-15 13:18:04 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '6776db36-11aa-4f5b-fff6-558836db8ba2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44174'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593484.349
+    'REQUEST_TIME' => 1447593484
+]
+2015-11-15 13:18:04 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '6776db36-11aa-4f5b-fff6-558836db8ba2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44175'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593484.564
+    'REQUEST_TIME' => 1447593484
+]
+2015-11-15 13:18:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'cf9d3cde-1482-6c9b-123e-e8854c2a7604'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44176'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593485.789
+    'REQUEST_TIME' => 1447593485
+]
+2015-11-15 13:18:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'cf9d3cde-1482-6c9b-123e-e8854c2a7604'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44177'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593485.822
+    'REQUEST_TIME' => 1447593485
+]
+2015-11-15 13:18:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '3b51bb5e-46b5-1352-ccb0-18f08f7048fc'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44178'
+    'REDIRECT_URL' => '/netfind/web/api/1/providers'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/providers'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593488.784
+    'REQUEST_TIME' => 1447593488
+]
+2015-11-15 13:18:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '3b51bb5e-46b5-1352-ccb0-18f08f7048fc'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44179'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593488.817
+    'REQUEST_TIME' => 1447593488
+]
+2015-11-15 13:18:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd3db261d-88bf-068e-caa3-a5d7442179ce'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44180'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593536.796
+    'REQUEST_TIME' => 1447593536
+]
+2015-11-15 13:18:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd3db261d-88bf-068e-caa3-a5d7442179ce'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44181'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593536.826
+    'REQUEST_TIME' => 1447593536
+]
+2015-11-15 13:18:57 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '486f7e7a-c859-8f09-22fc-17a27d3c3e48'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44182'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '//netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593537.719
+    'REQUEST_TIME' => 1447593537
+]
+2015-11-15 13:18:57 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:18:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '486f7e7a-c859-8f09-22fc-17a27d3c3e48'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44183'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593537.74
+    'REQUEST_TIME' => 1447593537
+]
+2015-11-15 13:19:16 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: GET.' in /var/www/html/netfind/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2015-11-15 13:19:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '0a703e74-90b7-49d0-bf30-5aee5add91fa'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a55c50cd0b97034806d5c9ff9eb73e024600cb86913b3d33a01cfe485ae0073fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GHiAN8N6sD0qmyNxdrfjkb-35w49KRSX%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44184'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447593556.193
+    'REQUEST_TIME' => 1447593556
+]
+2015-11-15 13:41:41 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:41:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594901.812
+    'REQUEST_TIME' => 1447594901
+]
+2015-11-15 13:41:41 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:41:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44241'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594901.844
+    'REQUEST_TIME' => 1447594901
+]
+2015-11-15 13:42:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:42:02 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44242'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/index.php'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594922.185
+    'REQUEST_TIME' => 1447594922
+]
+2015-11-15 13:42:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:42:02 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44243'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594922.201
+    'REQUEST_TIME' => 1447594922
+]
+2015-11-15 13:42:14 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:42:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44244'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/netfind/web/index.php?r=gii'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594934.161
+    'REQUEST_TIME' => 1447594934
+]
+2015-11-15 13:42:14 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main-login.php:8
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 13:42:14 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=12b65f265ffd6e40a03fddc802abc34d0cae4f8c334be7078b8250e0da83e7b6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ufH8vaiw-Jdfk3Ss_d6d2_4vey8g8GCJ%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44245'
+    'REDIRECT_URL' => '/netfind/web/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/login'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447594934.18
+    'REQUEST_TIME' => 1447594934
+]
+2015-11-15 14:00:21 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 14:00:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44324'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447596021.4
+    'REQUEST_TIME' => 1447596021
+]
+2015-11-15 14:00:31 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 14:00:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44325'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447596031.057
+    'REQUEST_TIME' => 1447596031
+]
+2015-11-15 14:00:31 [127.0.0.1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212+lfs/php_http.dll' - /usr/lib/php5/20121212+lfs/php_http.dll: cannot open shared object file: No such file or directory' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 14:00:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=3b7d5dafdc767f869415f9c499a40b2cbf5b5c490ebbd8b75b375624ec05263fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22iVJOx_3CHRn6O0s-YYJmGV5rcwSjtvZB%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '44325'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447596031.057
+    'REQUEST_TIME' => 1447596031
+]
+2015-11-15 23:13:47 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 23:13:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '48750'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447629227.191
+    'REQUEST_TIME' => 1447629227
+]
+2015-11-15 23:51:16 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/User.php(72): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/UserController.php(36): app\modules\api\modules\v1\models\User::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\UserController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 23:51:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42471'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447631474.72
+    'REQUEST_TIME' => 1447631474
+]
+2015-11-15 23:51:16 [127.0.0.1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212+lfs/php_http.dll' - /usr/lib/php5/20121212+lfs/php_http.dll: cannot open shared object file: No such file or directory' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 23:51:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42471'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447631474.72
+    'REQUEST_TIME' => 1447631474
+]
+2015-11-15 23:51:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: api/v1/provider/' in /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/provider', Array)
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-15 23:51:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/netfind/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 23:51:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42472'
+    'REDIRECT_URL' => '/netfind/web/api/v1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447631483.966
+    'REQUEST_TIME' => 1447631483
+]
+2015-11-15 23:51:56 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 23:51:56 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42475'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447631516.012
+    'REQUEST_TIME' => 1447631516
+]
+2015-11-15 23:54:52 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-15 23:54:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '42498'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447631692.963
+    'REQUEST_TIME' => 1447631692
+]
+2015-11-18 12:45:01 [127.0.0.1][-][-][error][yii\web\HttpException:405] exception 'yii\web\MethodNotAllowedHttpException' with message 'Method Not Allowed. This url can only handle the following request methods: POST.' in /var/www/html/netfind/vendor/yiisoft/yii2/filters/VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction(Object(yii\base\ActionEvent))
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/user/reg...', Array)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2015-11-18 12:45:00 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '005b1c08-3b89-1294-83f9-d01aab7a43ac'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '52204'
+    'REDIRECT_URL' => '/netfind/web/api/v1/user/register'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/v1/user/register'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447850700.315
+    'REQUEST_TIME' => 1447850700
+]
+2015-11-18 12:47:37 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'roo', 'mesh', NULL)
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#8 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#9 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#10 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#11 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#15 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#16 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'roo'@'localhost' (using password: YES)' in /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/netfind/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(216): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(831): yii\db\Command->prepare(true)
+#4 /var/www/html/netfind/vendor/yiisoft/yii2/db/Command.php(359): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/netfind/vendor/yiisoft/yii2/db/Query.php(206): yii\db\Command->queryAll()
+#6 /var/www/html/netfind/vendor/yiisoft/yii2/db/ActiveQuery.php(132): yii\db\Query->all(NULL)
+#7 /var/www/html/netfind/modules/api/modules/v1/models/LocationNetwork.php(119): yii\db\ActiveQuery->all()
+#8 /var/www/html/netfind/modules/api/modules/v1/controllers/LocationNetworkController.php(62): app\modules\api\modules\v1\models\LocationNetwork::getAll()
+#9 [internal function]: app\modules\api\modules\v1\controllers\LocationNetworkController->actionIndex()
+#10 /var/www/html/netfind/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /var/www/html/netfind/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/html/netfind/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#13 /var/www/html/netfind/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/v1/location...', Array)
+#14 /var/www/html/netfind/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/html/netfind/web/index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2015-11-18 12:47:37 [127.0.0.1][-][-][info][application] $_POST = [
+    'user_id' => '3'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '139'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary7YOA888TcX0R3M2d'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '88f62d40-172e-9637-9c02-be2fbd1d64c8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/netfind/web/index.php'
+    'REMOTE_PORT' => '52243'
+    'REDIRECT_URL' => '/netfind/web/api/1/provider'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/netfind/web/api/1/provider'
+    'SCRIPT_NAME' => '/netfind/web/index.php'
+    'PHP_SELF' => '/netfind/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447850857.676
+    'REQUEST_TIME' => 1447850857
+]
+2015-11-18 13:09:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/user".' in /var/www/html/rcf/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/rcf/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/user', Array)
+#1 /var/www/html/rcf/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/rcf/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/rcf/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/rcf/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/rcf/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-18 13:09:11 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/rcf/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-18 13:09:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3ba2a9da6e8987d057b9ea379f52cadd8c411fd0d34c395e65632a8e4bd85022a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sCXfEQpz0iud31SbZOBhNq36jmLURZSO\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=3ba2a9da6e8987d057b9ea379f52cadd8c411fd0d34c395e65632a8e4bd85022a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sCXfEQpz0iud31SbZOBhNq36jmLURZSO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/rcf/web/index.php'
+    'REMOTE_PORT' => '52346'
+    'REDIRECT_URL' => '/rcf/web/api/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rcf/web/api/user'
+    'SCRIPT_NAME' => '/rcf/web/index.php'
+    'PHP_SELF' => '/rcf/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447852151.564
+    'REQUEST_TIME' => 1447852151
+]
+2015-11-18 13:09:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/user".' in /var/www/html/rcf/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/rcf/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('api/user', Array)
+#1 /var/www/html/rcf/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/rcf/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/rcf/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/rcf/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/rcf/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-18 13:09:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in /var/www/html/rcf/views/layouts/main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-18 13:09:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '3ba2a9da6e8987d057b9ea379f52cadd8c411fd0d34c395e65632a8e4bd85022a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sCXfEQpz0iud31SbZOBhNq36jmLURZSO\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=3ba2a9da6e8987d057b9ea379f52cadd8c411fd0d34c395e65632a8e4bd85022a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sCXfEQpz0iud31SbZOBhNq36jmLURZSO%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/rcf/web/index.php'
+    'REMOTE_PORT' => '52352'
+    'REDIRECT_URL' => '/rcf/web/api/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rcf/web/api/user'
+    'SCRIPT_NAME' => '/rcf/web/index.php'
+    'PHP_SELF' => '/rcf/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447852170.939
+    'REQUEST_TIME' => 1447852170
+]
