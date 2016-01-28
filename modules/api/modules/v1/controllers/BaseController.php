@@ -25,7 +25,7 @@ class BaseController extends Controller{
         header($status_header);
         header('Access-Control-Allow-Origin: *');
         header('Content-type: ' . $content_type);
-        header('X-Powered-By: ' . "Netfind");
+        header('X-Powered-By: ' . "Judekayode");
     }
 
 
