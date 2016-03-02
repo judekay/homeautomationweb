@@ -85,5 +85,19 @@ class DeviceGroup extends \yii\db\ActiveRecord
 
     }
 
+    public function countondevices($device_group_id)
+    {
+        $db = Yii::$app->db;
+        $sql = "SELECT count(device_id) AS noofondevices FROM device WHERE device_value > 0 AND device_group_id = :device_group_id ";
+        $command = $db->createCommand($sql,[':device_group_id'=>$device_group_id]);
+        return $command->queryAll();
+
+    }
+
+    public function updatetemperauturebyid()
+    {
+
+    }
+
 
 }

@@ -9328,3 +9328,2303 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1453787788.357
     'REQUEST_TIME' => 1453787788
 ]
+2016-02-17 23:19:10 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'campussh_cam'@'localhost' (using password: YES)' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'campussh_cam', 'campusshop2015', NULL)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#9 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#10 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#11 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'campussh_cam'@'localhost' (using password: YES)' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#8 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#9 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-02-17 23:19:04 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '35a826c0-3543-3f73-c411-f6c2494c8a8b'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53647'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747543.482
+    'REQUEST_TIME' => 1455747543
+]
+2016-02-17 23:19:12 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'campussh_cam'@'localhost' (using password: YES)' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'campussh_cam', 'campusshop2015', NULL)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#9 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#10 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#11 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'campussh_cam'@'localhost' (using password: YES)' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#8 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#9 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-02-17 23:19:12 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '51d70832-4800-f241-f1bc-896d1d578b31'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53651'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747552.287
+    'REQUEST_TIME' => 1455747552
+]
+2016-02-17 23:20:14 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT `device_id`, `device_name`, `device_type_id`, `device_group`.`device_group_name`, `device_value`, (CASE WHEN(`device_type_id` = 1) THEN CONCAT("BULB","")
+                                                        ELSE CONCAT("FAN", "")END) as `device_type_name` FROM `device` INNER JOIN `device_group` ON `device`.`device_group_id` = `device_group`.`device_group_id` WHERE (`device`.`device_group_id` IS NULL) AND ((`device_group`.`active_status`=1) AND (`device`.`active_status`=1))' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `device_...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:20:13 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c2c9b43e-9c3a-2e82-b2d7-af2dc489190f'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53658'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestategroup'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747613.246
+    'REQUEST_TIME' => 1455747613
+]
+2016-02-17 23:22:33 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT `device_id`, `device_name`, `device_type_id`, `device_group`.`device_group_name`, `device_value`, (CASE WHEN(`device_type_id` = 1) THEN CONCAT("BULB","")
+                                                        ELSE CONCAT("FAN", "")END) as `device_type_name` FROM `device` INNER JOIN `device_group` ON `device`.`device_group_id` = `device_group`.`device_group_id` WHERE (`device`.`device_group_id`='1') AND ((`device_group`.`active_status`=1) AND (`device`.`active_status`=1))' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `device_...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:22:33 [::1][-][-][info][application] $_GET = [
+    'device_group' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '036f0f27-2db4-df83-e8dc-740578368b1f'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53744'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestategroup/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestategroup/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747753.066
+    'REQUEST_TIME' => 1455747753
+]
+2016-02-17 23:23:34 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: api/v1/device/getdevgrpdet' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/g...', Array)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-02-17 23:23:36 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in C:\wamp\www\homeautomation\views\layouts\main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-17 23:23:34 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd89d227f-c82a-8789-e9ef-03fb98362c4c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53767'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747814.127
+    'REQUEST_TIME' => 1455747814
+]
+2016-02-17 23:23:51 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/devicegroup/getdevgrpdet".' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/devicegr...', Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-02-17 23:23:51 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in C:\wamp\www\homeautomation\views\layouts\main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-17 23:23:50 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '7ada8eb8-c4dc-e5cb-7562-7b541663d278'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53772'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/devicegroup/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/devicegroup/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747830.726
+    'REQUEST_TIME' => 1455747830
+]
+2016-02-17 23:24:08 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT device_group.device_group_id, count(device.device_group_id) AS no_of_devices, device_group.device_group_name
+                         FROM device INNER JOIN device_group  WHERE device.device_group_id = device_group.device_group_id GROUP BY device.device_group_id' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_g...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:24:07 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '17f3f682-7e72-c4cd-c0df-0ff654c4089c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53788'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747847.839
+    'REQUEST_TIME' => 1455747847
+]
+2016-02-17 23:24:49 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT device_group.device_group_id, count(device.device_group_id) AS no_of_devices, device_group.device_group_name
+                         FROM device INNER JOIN device_group  WHERE device.device_group_id = device_group.device_group_id GROUP BY device.device_group_id' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_g...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:24:49 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '7ae1614a-2b9a-f2f0-0f1e-f5ba76147832'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '53818'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455747889.457
+    'REQUEST_TIME' => 1455747889
+]
+2016-02-17 23:32:45 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT device_group.device_group_id, count(device.device_group_id) AS no_of_devices, device_group.device_group_name
+                         FROM device INNER JOIN device_group  WHERE device.device_group_id = device_group.device_group_id GROUP BY device.device_group_id' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_g...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:32:43 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '3cb0798c-92da-d71c-3e6e-22720a299d18'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '54268'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455748363.887
+    'REQUEST_TIME' => 1455748363
+]
+2016-02-17 23:48:46 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT device_group.device_group_id, count(device.device_group_id) AS no_of_devices, device_group.device_group_name
+                         FROM device INNER JOIN device_group  WHERE device.device_group_id = device_group.device_group_id GROUP BY device.device_group_id' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_g...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-17 23:48:39 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '5800e95c-85bd-6569-6de9-0c045ff53c94'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '49729'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455749318.303
+    'REQUEST_TIME' => 1455749318
+]
+2016-02-17 23:53:33 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: device' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#5 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2016-02-17 23:53:32 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'f3ec741b-88b5-5bb7-983e-77dfa5b48c52'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '49857'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455749612.416
+    'REQUEST_TIME' => 1455749612
+]
+2016-02-17 23:57:36 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: device' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#5 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2016-02-17 23:57:36 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'ece877e1-49db-bf15-ed57-f9f319b5ce8a'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '49926'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455749856.266
+    'REQUEST_TIME' => 1455749856
+]
+2016-02-18 00:03:08 [::1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDOStatement::execute(): MySQL server has gone away' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDOStatement::e...', 'C:\\wamp\\www\\hom...', 825, Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#10 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#11 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#12 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next exception 'yii\db\Exception' with message 'PDOStatement::execute(): MySQL server has gone away
+The SQL being executed was: SHOW FULL COLUMNS FROM `device`' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'SHOW FULL COLUM...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#9 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#10 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#11 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#18 {main}
+Additional Information:
+
+2016-02-18 00:01:49 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '3d40fd0b-cd93-ccc7-a010-5f36d93d2067'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '50009'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455750109.387
+    'REQUEST_TIME' => 1455750109
+]
+2016-02-18 00:04:16 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#14 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#15 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#16 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#20 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#21 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#12 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#13 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#14 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2016-02-18 00:04:13 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '95873fc8-4113-39b6-a21b-197a7b054128'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '50037'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455750253.869
+    'REQUEST_TIME' => 1455750253
+]
+2016-02-18 00:04:25 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#14 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#15 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#16 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#20 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#21 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#12 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#13 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#14 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2016-02-18 00:04:22 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '9143e014-e88e-fea9-e298-335f4b298fc0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '50040'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455750262.93
+    'REQUEST_TIME' => 1455750262
+]
+2016-02-18 03:36:36 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#13 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#14 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#15 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#16 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#20 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#21 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('device')
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('device')
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#12 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#13 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#14 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#15 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#18 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#19 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2016-02-18 03:36:34 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c6044553-b224-768a-dc4e-1e20ee5c9bd1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51155'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455762994.597
+    'REQUEST_TIME' => 1455762994
+]
+2016-02-18 03:40:06 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: device' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#5 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2016-02-18 03:40:06 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '7a986d5d-8db0-1fb6-8b2f-b0eb6d44bbe4'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51223'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455763206.031
+    'REQUEST_TIME' => 1455763206
+]
+2016-02-18 03:40:31 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT device_group.device_group_id, count(device.device_group_id) AS no_of_devices, device_group.device_group_name
+                         FROM device INNER JOIN device_group  WHERE device.device_group_id = device_group.device_group_id GROUP BY device.device_group_id' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_g...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(83): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(74): app\modules\api\modules\v1\models\DeviceGroup->fetchallgroupdetails()
+#4 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetdevgrpdet()
+#5 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getdevgrpdet', Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-18 03:40:31 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '26e97f42-c510-2fe2-9553-e8d6b908f17e'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51225'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455763231.545
+    'REQUEST_TIME' => 1455763231
+]
+2016-02-18 03:40:58 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT `device_id`, `device_name`, `device_type_id`, `device_group`.`device_group_name`, `device_value`, (CASE WHEN(`device_type_id` = 1) THEN CONCAT("BULB","")
+                                                        ELSE CONCAT("FAN", "")END) as `device_type_name` FROM `device` INNER JOIN `device_group` ON `device`.`device_group_id` = `device_group`.`device_group_id` WHERE (`device`.`device_group_id`='1') AND ((`device_group`.`active_status`=1) AND (`device`.`active_status`=1))' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `device_...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(113): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(143): app\modules\api\modules\v1\models\Device->getdevicevalbygroupid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestategroup()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestategrou...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-18 03:40:57 [::1][-][-][info][application] $_GET = [
+    'device_group' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '166409cb-bd63-753b-b574-d0182c3b5c9a'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51227'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestategroup/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestategroup/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455763257.866
+    'REQUEST_TIME' => 1455763257
+]
+2016-02-18 03:47:12 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(72): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(47): app\modules\api\modules\v1\models\DeviceGroup->countgroupdevices('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetcount()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getcount', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'home_automation.device' doesn't exist
+The SQL being executed was: SELECT count(device_id) AS device_id FROM `device` WHERE (`device_group_id`='1') AND (`active_status`=1)' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT count(de...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\DeviceGroup.php(72): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceGroupController.php(47): app\modules\api\modules\v1\models\DeviceGroup->countgroupdevices('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceGroupController->actionGetcount()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('getcount', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'home_automation.device' doesn't exist
+)
+
+2016-02-18 03:47:12 [::1][-][-][info][application] $_GET = [
+    'device_group_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'c5bc7bff-37f8-fead-cbbb-f26a5d980a01'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51253'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getcount/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getcount/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455763632.409
+    'REQUEST_TIME' => 1455763632
+]
+2016-02-18 03:48:09 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: device' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php:298
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveRecord.php(176): yii\db\ActiveRecord::primaryKey()
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition('1')
+#3 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(100): yii\db\BaseActiveRecord::findOne('1')
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(118): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#5 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#6 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2016-02-18 03:48:09 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'bc3ad0d9-4706-6209-a968-55a8eccb58ca'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '51259'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455763689.008
+    'REQUEST_TIME' => 1455763689
+]
+2016-02-19 12:37:51 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/device-group/getdevgrpdet/3".' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device-g...', Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-02-19 12:37:53 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in C:\wamp\www\homeautomation\views\layouts\main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-19 12:37:50 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '03a1c82c-0be7-7e54-435e-c9259e6e5e9a'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '50509'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device-group/getdevgrpdet/3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device-group/getdevgrpdet/3'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455881870.923
+    'REQUEST_TIME' => 1455881870
+]
+2016-02-19 12:44:00 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api/v1/user/details/1".' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/user/det...', Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-02-19 12:44:01 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in C:\wamp\www\homeautomation\views\layouts\main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-19 12:44:00 [::1][-][-][info][application] $_POST = [
+    'user_type_id' => '2'
+    'username' => 'judekayode'
+    'password' => 'olamide1993'
+    'firstname' => 'kayode'
+    'lastname' => 'oguntimehin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '563'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryPd2YB1w3jnb3tLFw'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'f76fe162-e82e-95c5-7886-96c89b185dcb'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '50583'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/user/details/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/user/details/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1455882240.297
+    'REQUEST_TIME' => 1455882240
+]
+2016-02-23 19:56:14 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-02-23 19:56:16 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dmstr\web\AdminLteAsset' not found' in C:\wamp\www\homeautomation\views\layouts\main.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-23 19:56:12 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '92adadd0d7086c4ffe0c95dda3b5e940dc2d8e7d20e8d83f64a05d912bdd47cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"f8kixsTyRUN6Cs9gyJ8j6PGYxshuSWq0\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=92adadd0d7086c4ffe0c95dda3b5e940dc2d8e7d20e8d83f64a05d912bdd47cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22f8kixsTyRUN6Cs9gyJ8j6PGYxshuSWq0%22%3B%7D'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '49936'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456253771.507
+    'REQUEST_TIME' => 1456253771
+]
+2016-02-25 01:42:46 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `)` FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `)` FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1
+The SQL being executed was: SELECT `device_id`, GROUP_CONCAT(device_value SEPARATOR , `)` FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `device_...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `)` FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1
+)
+
+2016-02-25 01:42:45 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '761dd623-b588-6b59-a82f-3bbab431e37c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61235'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456360965.669
+    'REQUEST_TIME' => 1456360965
+]
+2016-02-25 01:44:52 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1
+The SQL being executed was: SELECT `device_id`, GROUP_CONCAT(device_value SEPARATOR) FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `device_...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid('1')
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM `device` WHERE `device_type_id`='1' GROUP BY `device_id`' at line 1
+)
+
+2016-02-25 01:44:52 [::1][-][-][info][application] $_GET = [
+    'device_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '77cc6ee3-d87f-df13-47b9-a4dd58b1af69'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61238'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456361092.43
+    'REQUEST_TIME' => 1456361092
+]
+2016-02-25 01:52:46 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ',') FROM device GROUP BY device_id' at line 1' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ',') FROM device GROUP BY device_id' at line 1
+The SQL being executed was: SELECT device_id, GROUP_CONCAT(device_value SEPERATOR ',') FROM device GROUP BY device_id ' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_i...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(102): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ',') FROM device GROUP BY device_id' at line 1
+)
+
+2016-02-25 01:52:46 [::1][-][-][info][application] $_GET = [
+    'device_type_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '1a1c1d35-11f5-bd4f-f6e2-15307e8cadfc'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61283'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456361566.546
+    'REQUEST_TIME' => 1456361566
+]
+2016-02-25 02:01:23 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ','),',','') FROM device GROUP BY device_id' at line 1' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(103): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ','),',','') FROM device GROUP BY device_id' at line 1
+The SQL being executed was: SELECT device_id, replace(GROUP_CONCAT(device_value SEPERATOR ','),',','') FROM device GROUP BY device_id ' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_i...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(103): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEPERATOR ','),',','') FROM device GROUP BY device_id' at line 1
+)
+
+2016-02-25 02:01:23 [::1][-][-][info][application] $_GET = [
+    'device_type_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '4d58896b-6341-91bc-2216-d18c5b88be16'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61517'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456362083.179
+    'REQUEST_TIME' => 1456362083
+]
+2016-02-25 02:02:07 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php:825
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(825): PDOStatement->execute()
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(103): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: SELECT device_id, replace(GROUP_CONCAT(device_value),',','') FROM device WHERE device_type_id = ' in C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT device_i...')
+#1 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php(103): yii\db\ActiveQuery->all()
+#5 C:\wamp\www\homeautomation\modules\api\modules\v1\controllers\DeviceController.php(115): app\modules\api\modules\v1\models\Device->getdevicevaluebyid(NULL)
+#6 [internal function]: app\modules\api\modules\v1\controllers\DeviceController->actionDevicestate()
+#7 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('devicestate', Array)
+#10 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api/v1/device/d...', Array)
+#11 C:\wamp\www\homeautomation\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\homeautomation\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-02-25 02:02:06 [::1][-][-][info][application] $_GET = [
+    'device_type_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'cb745586-9b8d-7c1d-6d41-da1304385c0f'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61523'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456362126.868
+    'REQUEST_TIME' => 1456362126
+]
+2016-02-25 02:03:29 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function asArray() on a non-object' in C:\wamp\www\homeautomation\modules\api\modules\v1\models\Device.php:103
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-25 02:03:29 [::1][-][-][info][application] $_GET = [
+    'device_type_id' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 UBrowser/5.5.7045.1004 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '879392d3-edf6-ac18-c3c7-b8da3f88af4b'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Python34\\Lib\\site-packages\\PyQt5;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/homeautomation/web/index.php'
+    'REMOTE_PORT' => '61533'
+    'REDIRECT_URL' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/homeautomation/web/api/v1/device/devicestate/1'
+    'SCRIPT_NAME' => '/homeautomation/web/index.php'
+    'PHP_SELF' => '/homeautomation/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1456362209.085
+    'REQUEST_TIME' => 1456362209
+]

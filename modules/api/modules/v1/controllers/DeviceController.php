@@ -102,9 +102,6 @@ class DeviceController extends BaseController
             $errormessage = "Error, Device could not be updated";
             return ApiUtility::errorResponse($errormessage);
         }
-
-
-
     }
 
     public function actionDevicestate()
@@ -113,7 +110,7 @@ class DeviceController extends BaseController
 
         $access_token = ApiKeyHelper::ACCESS_TOKEN;
 
-        $device_id = Yii::$app->getRequest()->getQueryParam('device_id');
+        $device_id = Yii::$app->getRequest()->getQueryParam('device_type_id');
         $device = new Device();
         $devicestate = $device->getdevicevaluebyid($device_id);
         if(empty($devicestate || !is_array($devicestate))){
@@ -123,8 +120,7 @@ class DeviceController extends BaseController
         else {
             $this->setHeader(200);
             return [
-                'status' => true,
-                'message' => 'Device state fetched successfully',
+              
                 'data' => $devicestate
 
             ];

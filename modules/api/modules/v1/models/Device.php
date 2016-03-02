@@ -95,10 +95,13 @@ class Device extends \yii\db\ActiveRecord
 
     }
 
-    public function getdevicevaluebyid($device_id)
+    public function getdevicevaluebyid($device_type_id)
     {
-        $device = Device::findOne($device_id);
-        return $device->device_value;
+//        SELECT person_id, GROUP_CONCAT(hobbies SEPARATOR ', ')
+//FROM peoples_hobbies GROUP BY person_id
+//        replace('Your String','charater you want to replace','with what')
+        $device = Device::findBySql("SELECT replace(GROUP_CONCAT(device_value),',','')as device_value FROM device WHERE device_type_id = $device_type_id")->asArray()->all();
+        return $device;
     }
 
 

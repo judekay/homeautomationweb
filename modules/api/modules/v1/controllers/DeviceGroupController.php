@@ -59,8 +59,6 @@ class DeviceGroupController extends BaseController
             ];
         }
 
-
-
     }
 
     public function actionGetdevgrpdet()
@@ -86,8 +84,6 @@ class DeviceGroupController extends BaseController
             ];
         }
 
-
-
     }
 
 
@@ -97,9 +93,9 @@ class DeviceGroupController extends BaseController
 
         $access_token = ApiKeyHelper::ACCESS_TOKEN;
 
-
+        $device_group_id = Yii::$app->getRequest()->getQueryParam('device_group_id');
         $device = new DeviceGroup();
-        $devicestate = $device->fetchallgroupdetails();
+        $devicestate = $device->countondevices($device_group_id);
         if(empty($devicestate || !is_array($devicestate))){
             $message = "Device Count retrieved successfully";
             return ApiUtility::errorResponse($message);
@@ -113,8 +109,6 @@ class DeviceGroupController extends BaseController
 
             ];
         }
-
-
 
     }
 

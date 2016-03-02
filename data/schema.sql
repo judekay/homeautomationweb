@@ -79,15 +79,14 @@ VALUES (1, 'Living Room', 30, 'This group contains all the appliances in the liv
   (4, 'Bedroom1', 50, 'This group contains all the appliances in Bedroom1', NOW(), NOW(), 1),
   (5, 'Security Appliances', 30, 'This group contains all the appliances outside the house such as security light',NOW(), NOW(), 1);
 
-INSERT INTO device (device_id, device_type_id, device_group_id, device_name, device_value, created_at, modified_at, active_status)
-VALUES (1,1,1,'LIVINGROOMBULB1',0,NOW(),NOW(), 1),
-  (2,2,1,'LIVINGROOMFAN',0,NOW(),NOW(),1),
-  (3,1,2,'DININGROOMBULB1',0,NOW(),NOW(),1),
-  (4,2,2,'DININGROOMFAN',0,NOW(),NOW(),1),
-  (5,1,3,'MASTERBEDROOMBULB1',0,NOW(),NOW(),1),
-  (6,1,4,'BEDROOM1BULB1',0,NOW(),NOW(),1),
-  (7,1,5,'SECURITYBULB1',0,NOW(),NOW(),1),
-  (8,1,5,'SECURITYBULB2',0,NOW(),NOW(),1);
+INSERT INTO device (device_type_id, device_group_id, device_name, device_value, created_at, modified_at, active_status)
+VALUES (1,1,'LIVINGROOMBULB1',0,NOW(),NOW(), 1),
+  (2,1,'LIVINGROOMFAN',0,NOW(),NOW(),1),
+  (1,2,'DININGROOMBULB1',0,NOW(),NOW(),1),
+  (1,3,'MASTERBEDROOMBULB1',0,NOW(),NOW(),1),
+  (1,4,'BEDROOM1BULB1',0,NOW(),NOW(),1),
+  (1,5,'SECURITYBULB1',0,NOW(),NOW(),1),
+  (1,5,'SECURITYBULB2',0,NOW(),NOW(),1);
 
 
 
